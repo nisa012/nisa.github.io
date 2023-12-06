@@ -59,7 +59,7 @@ body {
 .card .text {
     flex: 1;
     padding: 20px;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .profile-picture {
@@ -68,6 +68,8 @@ body {
     height: auto;
     border-radius: 50px;
     padding: 30px;
+    margin: 0 auto; /* Posisikan ke tengah secara horizontal */
+    display: block; /* Untuk memastikan margin: 0 auto; berfungsi */
 }
 
 /* Footer */
